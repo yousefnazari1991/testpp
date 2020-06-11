@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "iransans";
+    src:url('../fonts/irsans/IRANSansWeb.eot?#') format('eot'),
+    url('../fonts/irsans/IRANSansWeb.woff') format('woff'),
+    url('../fonts/irsans/IRANSansWeb.woff2') format('woff2'),
+    url('../fonts/irsans/IRANSansWeb.ttf') format('truetype');
+}
+*:not(i)
+{
+    font-family: "iransans" !important;
+}
+.imageUser{
+    max-width: 3cm !important;
+    max-height: 4cm !important;
+    min-width: 3cm !important;
+    min-height: 4cm !important;
+    height: 4cm !important;
+    width: 3cm !important;
+}
+body{
+    background-color: #272727 !important;
+}
+.back-body
+{
+    background-color: #ebeced !important;
+}
+.imageUserInPanel
+{
+    width: 85px !important;
+    height: 85px !important;
+}
+.userNameInPanel
+{
+    line-height: 65px;
+}
+.content-wrapper{background: #272727 !important;}
+/*.color1{background-color: #2e9cca !important;}*/
+/*.color1{background-color: #29648a !important;}*/
+/*.nav-link{color:black !important;}*/
+/*.nav-link:hover*/
+/*{*/
+    /*background-color: #1b1e21 !important;*/
+    /*transition: 0.3s ease-in all;*/
+    /*color:wheat !important;*/
+/*}*/
+/*.btn-link{*/
+    /*text-decoration: none !important;*/
+    /*width: 100% !important;*/
+
+/*}*/
+input[type="file"]
+{
+    display: none;
+}
+.lableforfile
+{
+    background-color: #0942ff;
+    display: block;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.imageUpload
+{
+    width: 100px;
+    height: 100px;
+}
+.font14
+{
+    font-size: 14px !important;
+}
+.font16
+{
+    font-size: 16px !important;
+}
+.font18
+{
+    font-size: 18px !important;
+}
+.font12
+{
+    font-size: 12px !important;
+}
+.font10
+{
+    font-size: 10px !important;
+}
+p.teaser {
+    text-indent: 30px;
+}
+.hoverCourses:hover{
+    transition: all 0.3s ease-in;
+    background-color: #0c5460;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+fieldset{
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+legend
+{
+    border:1px solid deepskyblue;
+    padding: 1px;
+    border-radius: 5px;
+    width: auto;
+}
+.chosen-container{width: 100% !important;}
+.hoverItem{
+    color:black;
+    border-radius: 4px;
+}
+.hoverItem:hover{
+    background: linear-gradient(#0b2e13,#0c5460);
+    transition:all 0.3s ease-in-out ;
+    -moz-transition: all 0.3s ease-in-out;
+    color: orangered;
+    border-radius: 4px;
+}
+.hoverCard:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+    -ms-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+    opacity: 0.8;
+    z-index: 10;
+    filter: invert(0.30);
+    filter: grayscale(100%);
+    box-shadow: 4px 4px blue ;
+}
+.hoverCard2:hover{
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all ease-in 0.3s;
+    -moz-transition: all ease-in 0.3s;
+    -ms-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+    opacity: 0.8;
+    z-index: 10;
+    filter: invert(0.30);
+    filter: grayscale(100%);
+    box-shadow: 4px 4px blue ;
+}
+.bulletRight::before
+{
+    content: '';
+    width: 48px;
+    height: 100%;
+    background: linear-gradient(blue,blueviolet,lawngreen);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100%;
+    position: absolute;
+    right: -25px;
+    top: 0;
+}
+.color-frost
+{
+    background:linear-gradient(#000428,#004e92);
+}
+.color-green-beach
+{
+    background:linear-gradient(#02AAB0,#00CDAC);
+}
+.color-petrol {
+    background: linear-gradient(#BBD2C5, #536976);
+}
+.hoverArrowDown:hover i.fa-arrow-down
+{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in;
+}
+li{list-style: none !important;}
+.menuItem::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.menuItem:hover::after
+{
+    width: 100%;
+    background: blue;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+.cardHeaderCenter
+{
+    left: 5% !important;
+    position: absolute !important;
+    top: -20px !important;
+    width: 90% !important;
+}
+.showOrHideBtns:hover .btnForAction
+{
+    display: block !important;
+}
